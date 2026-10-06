@@ -1,0 +1,8 @@
+.vs/
+__pycache__/
+build/
+dist/
+*.db
+*.log
+*.pyc
+*.ini
