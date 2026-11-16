@@ -4136,10 +4136,10 @@ class VMSApp(tk.Tk):
 
             ok, error = validate_password_policy(new_password)
             if not ok:
-               messagebox.showerror(
-                   "Invalid Password",
-                   error,
-                   parent=win
+                messagebox.showerror(
+                    "Invalid Password",
+                    error,
+                    parent=win
                 )
                 return
 
