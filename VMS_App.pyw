@@ -4148,8 +4148,8 @@ class VMSApp(tk.Tk):
                     "Password Mismatch",
                     "The two passwords do not match.",
                     parent=win
-            )
-            return
+                )
+                return
 
             if not messagebox.askyesno(
                "Confirm Password Change",
